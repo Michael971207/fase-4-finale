@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 17 24 39;          /* #111827 */
+  --foreground: 249 250 251;       /* #F9FAFB */
+
+  --card: 17 24 39;
+  --card-foreground: 249 250 251;
+
+  --popover: 17 24 39;
+  --popover-foreground: 249 250 251;
+
+  --primary: 106 68 229;           /* #6A44E5 */
+  --primary-foreground: 255 255 255;
+
+  --secondary: 75 85 99;           /* #4B5563 */
+  --secondary-foreground: 249 250 251;
+
+  --accent: 236 72 153;            /* #EC4899 */
+  --accent-foreground: 255 255 255;
+
+  --success: 16 185 129;           /* #10B981 */
+  --destructive: 239 68 68;        /* #EF4444 */
+
+  --border: 55 65 81;
+  --input: 55 65 81;
+  --ring: 106 68 229;
+
+  --radius: 0.75rem;
+}
+
+html,
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
